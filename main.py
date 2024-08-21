@@ -1,5 +1,6 @@
 from urllib.request import urlopen, Request;
 from bs4 import BeautifulSoup;
+from nltk.sentiment.vader import SentimentIntensityAnalyzer;
 
 finviz_url = 'https://finviz.com/quote.ashx?t='
 tickers = [ 'AAPL','AMZN', 'MSFT', 'NVDA', 'IBM', 'BRK.B', 'JPM']
