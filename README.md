@@ -1,5 +1,5 @@
 # NLP
 
-Sentiment analysis for stock news. Using finviz.com for stock data.
+Sentiment analysis for stock news.
 
-In progress..
+Finviz used for stock data and news headlines, NLTK used for sentiment analysis model. Pandas and Matplotlib used to manipulate and visualise data.
