@@ -6,7 +6,7 @@ from datetime import datetime, timedelta;
 import matplotlib.pyplot as plt;
 
 finviz_url = 'https://finviz.com/quote.ashx?t='
-tickers = [ 'AAPL','AMZN', 'GOOG', 'INTC']
+tickers = [ 'AAPL','AMZN', 'GOOG', 'META']
 
 news_tables = {}
 
